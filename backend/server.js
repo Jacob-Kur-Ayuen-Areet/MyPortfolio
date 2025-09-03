@@ -125,6 +125,5 @@ app.post('/contact', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
-});
+// ✅ Export instead of listen()
+module.exports = app;

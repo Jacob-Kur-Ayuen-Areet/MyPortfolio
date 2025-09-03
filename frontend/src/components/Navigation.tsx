@@ -20,14 +20,19 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm border-b border-border z-50">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">KJ</span>
-            </div>
-            <span className="text-xl font-bold text-primary hidden sm:block">
-              Kur.j Developer
-            </span>
-          </Link>
+        <Link to="/" className="flex items-center space-x-3">
+  <div className="w-14 h-14 rounded-xl overflow-hidden flex items-center justify-center">
+    <img
+      src="https://i.postimg.cc/ht86Mkdh/My-logo-removebg-preview.png"
+      alt="Logo"
+      className="w-full h-full object-contain"
+    />
+  </div>
+  <span className="text-xl font-bold text-primary hidden sm:block">
+    Kur.j Developer
+  </span>
+</Link>
+
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-4">

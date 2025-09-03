@@ -64,7 +64,7 @@ const Services = () => {
     price: string;
   }) => {
     try {
-      const response = await fetch("http://localhost:4000/services", {
+      const response = await fetch("https://backend-evn9z3ujd-jacob-kur-s-projects.vercel.app/services", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
